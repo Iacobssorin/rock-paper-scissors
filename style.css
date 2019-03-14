@@ -1,0 +1,83 @@
+body {
+	background: #f5f9e0 ; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+ color: blue;
+}
+
+h1{
+	 border-style: groove;
+  border-style: inset;
+  border-width: 2px;
+  border-color: coral;
+   border-radius: 20px;
+    font: bold 35px sans-serif;
+    color: green;
+    margin: 100px 30% 100px 30%;
+
+
+}
+ h1:hover { color: brown;
+	transform: scale(1.2);
+
+ }
+ label {
+  cursor: pointer;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+
+button {
+    cursor: pointer;
+    height: 200px;
+    margin: 10px ;
+    transition: all 0.03s;
+    width: 200px;
+   border-style: groove;
+ 	 border-width: 7px;
+  	border-color: coral; 
+
+    border-radius: 50%;
+   
+
+}
+
+button:hover {transform: scale(1.2);}
+
+button:active {transform: scale(1);}
+
+button#rock {
+    background: url('images/rock.png') center/contain no-repeat;
+}
+
+button#paper {
+    background: url('images/paper.png') center/contain no-repeat;
+}
+
+button#scissors {
+    background: url('images/scissors.png') center/contain no-repeat;
+}
+.elm{
+	
+	margin: auto;
+}
+label{
+  cursor: pointer;
+    height: 35px;
+    margin: 10px ;
+    transition: all 0.03s;
+    width: 200px;
+   border-style: groove;
+   border-width: 3px;
+   border-color: green; 
+   font-size: 30px;
+    border-radius: 50px;
+    background: #c1d9ff;
+}
+ label:hover { color: brown;
+ transform: scale(1.2);
+}
+
