@@ -21,7 +21,7 @@ element.innerHTML = "for playing you can use either icon or label";
 }
 function myH1_Tag() {
    var element = document.getElementById("demo");
-element.innerHTML = "Make your chosse!";
+element.innerHTML = "Make your choice!";
 }
 
 function computerPlay() {
